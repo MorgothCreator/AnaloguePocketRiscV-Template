@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1051324851/PATH/delimiter=;
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1051324851/PATH/operation=replace
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1051324851/PATH/value=C\:\\GitHubDevBoard\\_FreedomStudio\\build-tools\\bin;C\:\\GitHubDevBoard\\_FreedomStudio\\SiFive\\toolchain\\riscv64-unknown-elf-gcc-8.2.0-2019.02.0\\bin;C\:/GitHubDevBoard/_FreedomStudio/eclipse//../jre/bin/server;C\:/GitHubDevBoard/_FreedomStudio/eclipse//../jre/bin;C\:/GitHubDevBoard/_FreedomStudio/eclipse//../jre/lib/amd64;C\:\\Windows\\system32;C\:\\Windows;C\:\\Windows\\System32\\Wbem;C\:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C\:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C\:\\Users\\Morgoth\\AppData\\Local\\Microsoft\\WindowsApps;C\:\\Users\\Morgoth\\AppData\\Local\\atom\\bin;C\:\\Users\\Morgoth\\AppData\\Local\\GitHubDesktop\\bin;C\:\\GitHubDevBoard\\_FreedomStudio
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1051324851/TOOLCHAIN_PATH/delimiter=;
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1051324851/TOOLCHAIN_PATH/operation=replace
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1051324851/TOOLCHAIN_PATH/value=C\:\\GitHubDevBoard\\_FreedomStudio\\SiFive\\toolchain\\riscv64-unknown-elf-gcc-8.2.0-2019.02.0\\bin
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1051324851/append=true
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1051324851/appendContributed=true

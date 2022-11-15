@@ -184,32 +184,13 @@ main() {
     Points_i.focalLength = 300;
 	Points_i.depthScale = 1;
 
-	//lib_3ds_draw_triangle_i(NULL, &Points_i, 64, 32, angle_x, angle_y, angle_z, 0x00);
-
-	//lib_3ds_clear(0x0F);
-	//lib_3ds_draw_pixel(NULL, 100, 100, 0x00);
-	//lib_3ds_draw_pixel(NULL, 100, 105, 0x00);
-	//lib_3ds_draw_pixel(NULL, 105, 100, 0x00);
-	//lib_3ds_draw_line(NULL, 30, 10, 10, 80, 3, 0xFF);
-	//delay(5000);
-
     while(1) {
+		lib_3ds_clear(0x00);
 		if(angle_y < 360)
 			angle_y++;
 		else
 			angle_y = 0;
-		lib_3ds_clear(0x00);
-    	//delay(2);
-    	//lib_3ds_draw_line(NULL, 30, 10, 10, 80, 3, 0xFF);
     	lib_3ds_draw_triangle_i(NULL, &Points_i, 128, 128, angle_x, angle_y, angle_z, 0xFF);
-		//lib_3ds_draw_circle(NULL, 64, 64, 24, true, 0xFF);
-    	///VIDEO.PIXEL = cnt;
-    	//cnt++;
-    	//LED_IO.OUT = cnt++;
-    	//left_to_right(delay_cycles);
-    	//right_to_left(delay_cycles);
-    	//center_to_center(delay_cycles);
-
     	uint8_t shift = 128;
     	uint8_t d = BANK_3_IO.IN;
     	int x = 5;
@@ -258,6 +239,6 @@ main() {
     		x += 8;
     		shift = shift >> 1;
     	}
-    	delay(5);
+    	//delay(2);
     }
 }
